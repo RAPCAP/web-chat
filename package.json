@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "name": "example-monorepo",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "api": "yarn workspace api start",
+    "web": "yarn workspace web start"
+  }
+}
